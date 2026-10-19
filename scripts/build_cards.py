@@ -30,7 +30,7 @@ PROJECTS = [
      "JavaScript", None, True, "在线预览 ↗"),
     ("juanxincai-ai-site", "AI 服务", "卷心菜 · AI 工坊",
      ["AI 自由职业者个人站：首屏实时演示", "+ 可试玩的文案、Prompt、流程设计工具"],
-     "JavaScript", None, False, None),
+     "JavaScript", None, True, None),
 ]
 
 THEMES = {
