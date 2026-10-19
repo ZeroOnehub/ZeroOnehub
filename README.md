@@ -18,7 +18,7 @@
   <tr>
     <td width="50%" valign="top">
       <b>AIPM 工坊</b><br/>
-      个人 AI 产品经理工作台，基于 DeepSeek Harness 二次开发<br/>
+      基于 DeepSeek Harness 的个人 AIPM 工作台<br/>
       <sub>Agent · TypeScript · 进行中</sub>
     </td>
     <td width="50%" valign="top">
