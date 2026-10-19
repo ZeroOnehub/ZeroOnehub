@@ -2,7 +2,7 @@
 
 主页只负责"不单调"：一张氛围插画横幅 + 三张"最近在研究"小卡片 + 两个链接按钮。
 姓名和基本信息已经在 GitHub 左侧边栏，这里不重复；项目交给 Pinned repositories 展示。
-- 横幅底部的一行字：TAGLINE
+- 横幅底部的四字对仗：TAGLINE（"万流归道"化用"万流归宗"，道 / 效 押韵）
 - 横幅两侧的关键词：INPUTS（左，流入）/ OUTPUTS（右，流出）
 - 每周更新：NOW + UPDATED
 """
@@ -11,7 +11,7 @@ from pathlib import Path
 
 OUT = Path(__file__).resolve().parent.parent / "assets"
 
-TAGLINE = "善用 AI 提效，搭建工作流"
+TAGLINE = ("万流归道", "AI 提效")
 INPUTS = ["需求", "文档", "数据"]
 OUTPUTS = ["PRD", "Skill", "Agent"]
 
@@ -117,8 +117,10 @@ def banner(t):
         b.append(g)
 
     # 底部一行字
-    b.append(f'<text x="{cx}" y="262" font-size="19" text-anchor="middle" fill="{t["ink2"]}" letter-spacing="1">{esc(TAGLINE)}</text>')
-    return svg(W, H, b, f"插画：需求、文档、数据经过 AI 汇聚，流向 PRD、Skill、Agent。{TAGLINE}", defs, style)
+    left, right = TAGLINE
+    b.append(f'<text x="{cx}" y="264" font-size="22" font-weight="600" text-anchor="middle" letter-spacing="5" fill="url(#core)">'
+             f'{esc(left)}<tspan fill="{t["muted"]}" font-weight="400"> · </tspan>{esc(right)}</text>')
+    return svg(W, H, b, f"插画：需求、文档、数据经过 AI 汇聚，流向 PRD、Skill、Agent。{left}，{right}", defs, style)
 
 
 # ---------------------------------------------------------------- 最近在研究

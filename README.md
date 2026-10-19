@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg" />
-  <img src="./assets/banner-light.svg" width="100%" alt="插画：需求、文档、数据经过 AI 汇聚，流向 PRD、Skill、Agent。善用 AI 提效，搭建工作流" />
+  <img src="./assets/banner-light.svg" width="100%" alt="插画：需求、文档、数据经过 AI 汇聚，流向 PRD、Skill、Agent。万流归道，AI 提效" />
 </picture>
 
 <picture>
