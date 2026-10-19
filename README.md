@@ -1,14 +1,14 @@
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-aipm-workbench-dark.svg" /><img src="./assets/card-aipm-workbench-light.svg" width="49%" alt="AIPM 工坊" /></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-aipm-skills-dark.svg" /><img src="./assets/card-aipm-skills-light.svg" width="49%" alt="AIPM Skills" /></picture>
+  <a href="https://github.com/ZeroOnehub/aipm-workbench"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-aipm-workbench-dark.svg" /><img src="./assets/card-aipm-workbench-light.svg" width="49%" alt="AIPM 工坊" /></picture></a>
+  <a href="https://github.com/ZeroOnehub/aipm-skills"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-aipm-skills-dark.svg" /><img src="./assets/card-aipm-skills-light.svg" width="49%" alt="AIPM Skills" /></picture></a>
 </p>
 <p align="center">
   <a href="https://zeroonehub.github.io/chengyi/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-chengyi-dark.svg" /><img src="./assets/card-chengyi-light.svg" width="49%" alt="承艺 · 山河入坊（点击在线体验）" /></picture></a>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-chengyi-3-dark.svg" /><img src="./assets/card-chengyi-3-light.svg" width="49%" alt="承艺 3.0" /></picture>
+  <a href="https://github.com/ZeroOnehub/chengyi-3"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-chengyi-3-dark.svg" /><img src="./assets/card-chengyi-3-light.svg" width="49%" alt="承艺 3.0" /></picture></a>
 </p>
 <p align="center">
   <a href="https://zeroonehub.github.io/bilibili-promo/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-bilibili-promo-dark.svg" /><img src="./assets/card-bilibili-promo-light.svg" width="49%" alt="哔哩哔哩产品宣传页（点击在线预览）" /></picture></a>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-juanxincai-ai-site-dark.svg" /><img src="./assets/card-juanxincai-ai-site-light.svg" width="49%" alt="卷心菜 · AI 工坊" /></picture>
+  <a href="https://github.com/ZeroOnehub/juanxincai-ai-site"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-juanxincai-ai-site-dark.svg" /><img src="./assets/card-juanxincai-ai-site-light.svg" width="49%" alt="卷心菜 · AI 工坊" /></picture></a>
 </p>
 
 <br/>
